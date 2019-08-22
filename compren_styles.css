@@ -1,0 +1,130 @@
+body{
+    background-color: lightgray
+}
+
+h1{
+    font-family: 'Karla', sans-serif;
+    font-size: 37pt;
+}
+h3{
+    font-family: 'Karla', sans-serif;
+    font-size: 26pt;
+}
+h2{
+  font-family: 'Courgette', cursive;
+  font-size: 30pt;
+}
+p {
+    font-size: 15pt;
+}
+ul, ol{
+    font-family: 'Karla', sans-serif;
+    font-size: 14pt;
+}
+
+p1{
+    font-family: 'Karla', sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  left: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: gray; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 12px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 16px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+
+* {box-sizing: border-box}
+/* Set height of body and the document to 100% to enable "full page tabs" */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #E3F2F7;
+    color: lightslategrey;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 20%;
+  }
+  
+  .tablink:hover {
+    background-color: lightcyan;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: lightslategray;
+    padding: 100px 100px;
+    display: block;
+    background-color: #E3F2F7;
+  }
+
+  .button1 {
+    background-color: lightgray; /* Green */
+    border: none;
+    color: white;
+    padding: 9px 19px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+    margin-bottom: 10px;
+
+  }
+
+  .button2 {
+    background-color: lightgray; /* Green */
+    border: none;
+    color: white;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+
+  
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
